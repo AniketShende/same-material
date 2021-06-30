@@ -1,0 +1,19 @@
+<html>
+
+<title>FORM</title>
+<style id="jsbin-css">
+ body{font: 1em/1.5em arial,sans-serif}
+ #test{width:500px; margin: 100px auto;}
+ .fields{display: block; position: relative; padding-top:25px;}
+ .fields input{padding:12px; width:300px; font: 1em/1.5em arial,sans-serif; background: transparent; position: relative; z-index: 2;}
+ .fields label{position: absolute; color:#ccc; display: inline-block; top:40px; left:20px; transition: top 0.5s linear, color 0.5s linear;}
+ .fields .posfixed{top:0px; color:#333;}
+</style>
+
+<body>
+<div id="test">
+<span class="fields"><label>Full Name</label><input type="" name="" onfocus="this.previousElementSibling.classList.add('posfixed')"></span>
+</div>
+</body>
+
+</html>
